@@ -1,3 +1,18 @@
+## Summary
+
+This api will return the data for all working apis. Any failures will be handled with circuit breakers so we don't keep hitting a failing api.
+
+To run do:
+
+```bash
+./mvnw clean spring-boot:run
+```
+
+### Things to add for the future
+
+* Cache to return the most recent data on a failure
+* Dashboard and logs to shows whats working and what isn't
+
 ## Your mission:
 
 A client needs to know what is happening on the social networks. All of them. Right now.
